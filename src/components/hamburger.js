@@ -1,12 +1,15 @@
 import React from 'react'
 import './ham.css'
+import { useState } from "react";
 import { SocialIcon } from 'react-social-icons';
-
 const Hamburger = () => {
-
+    const [isActive, setActive] = useState("false");
+    const Tooglehandle = () => {
+    setActive(!isActive);
+  };
     return (
-        <div className="container">
-        <div className="hamburger-menu">
+        <div className={isActive ? "container" : "change"}>
+        <div className="hamburger-menu" onClick={Tooglehandle}>
             <div className="line line-1"></div>
             <div className="line line-2"></div>
             <div className="line line-3"></div>
