@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './components/nav'
 import styled from 'styled-components';
+import Hamburger from './components/hamburger';
 const Container = styled.div``
 const Image = styled.img`
     width: 95%;
@@ -19,12 +20,12 @@ const Image = styled.img`
 const GithubWorkshop = styled.div`
       background-color:#f5f5f5;
       display: flex;
-      align-items: center;
       justify-content: center;
 `
 
 const GithubImage = styled.img`
     width: 25%;
+
 
 `
 const About = styled.div`
@@ -35,7 +36,7 @@ const About = styled.div`
     font-weight: 300;
     background-color:#f5f5f5;
     text-align: center;
-    padding: 70px;
+    padding: 50px;
   
 
 `
@@ -44,6 +45,7 @@ const HomePage = () => {
     return (
         <Container>
             <Nav />
+            <Hamburger />
             <Image src="https://www.freecodecamp.org/news/content/images/size/w2000/2020/09/git.png"/>
             <About> Git and GitHub : All you need to know!  </About>
             <GithubWorkshop>
