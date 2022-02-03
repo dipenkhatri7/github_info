@@ -4,12 +4,12 @@ import { useState } from "react";
 import { SocialIcon } from 'react-social-icons';
 const Hamburger = () => {
     const [isActive, setActive] = useState("false");
-    const Tooglehandle = () => {
+    const ToggleHangle = () => {
     setActive(!isActive);
   };
     return (
         <div className={isActive ? "container" : "change"}>
-        <div className="hamburger-menu" onClick={Tooglehandle}>
+        <div className="hamburger-menu" onClick={ToggleHangle}>
             <div className="line line-1"></div>
             <div className="line line-2"></div>
             <div className="line line-3"></div>
