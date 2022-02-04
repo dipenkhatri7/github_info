@@ -2,7 +2,8 @@ import React from 'react'
 import Nav from './components/nav'
 import styled from 'styled-components';
 import Hamburger from './components/hamburger';
-import SpeakerTilt from './components/speakersTilt';
+
+import SpeakerMap from './components/speakerMap';
 const Container = styled.div``
 const Image = styled.img`
     width: 50%;
@@ -81,6 +82,21 @@ font-size: 20px;
 letter-spacing: .5px;
 text-align: left;
 `
+const About1 = styled.div`
+ height: 20vh;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 60px;
+    color: #4b4b4b;
+    font-weight: 300;
+
+    text-align: center;
+    padding: 50px;
+`
+const Underline1= styled.hr`
+    width: 12.45rem;
+    height: 0.2rem;
+    background-color: #c29525;`
+
 const HomePage = () => {
     return (
         <Container>
@@ -120,6 +136,8 @@ const HomePage = () => {
                     <List2>KUCC GitHub Organization</List2>
                 </GithubDay2>
             </GithubWorkshop>
+            <About1> SPEAKERS <Underline1 /> </About1>
+            <SpeakerMap />
         </Container>
 
    
