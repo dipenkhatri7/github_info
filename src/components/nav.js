@@ -7,7 +7,7 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     background-color: lightblue;
-    height: 45.45px;
+    height: 65.45px;
     border: 1px solid black;
 `
 const Title = styled.h1`
