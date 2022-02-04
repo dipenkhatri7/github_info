@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './components/nav'
 import styled from 'styled-components';
 import Hamburger from './components/hamburger';
+import SpeakerTilt from './components/speakersTilt';
 const Container = styled.div``
 const Image = styled.img`
     width: 50%;
@@ -21,11 +22,12 @@ const GithubWorkshop = styled.div`
       background-color:#f5f5f5;
       display: flex;
       justify-content: center;
+      flex: 1;
 `
 
 const GithubImage = styled.img`
     width: 25%;
-
+    margin-bottom: 40px;
 
 `
 const About = styled.div`
@@ -45,7 +47,40 @@ const Underline = styled.hr`
     height: 0.2rem;
     background-color: #c29525;
 `
+const GithubDay1 = styled.div`
+    flex: 1;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 10px;
+`
+const GithubDay2 = styled.div`
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 80px;
 
+`
+
+const Title  = styled.div`
+    font-family: 'Urbanist', sans-serif;
+    font-size: 45.45px;
+    margin-bottom: 28.45px;
+`
+const List1 =styled.li`
+font-family: 'Urbanist', sans-serif;
+margin: 2px;
+font-size: 20px;
+letter-spacing: .5px;
+text-align: left;
+`
+const List2 = styled.li`
+font-family: 'Urbanist', sans-serif;
+margin: 2px;
+font-size: 20px;
+letter-spacing: .5px;
+text-align: left;
+`
 const HomePage = () => {
     return (
         <Container>
@@ -55,7 +90,35 @@ const HomePage = () => {
             <About> Git and GitHub : All you need to know! <Underline /> </About>
             
             <GithubWorkshop>
+            <GithubDay1>
+
+                        <Title>Day 1:</Title>
+                        <List1>Importance of VCS </List1>
+                        <List1>What are Git and GitHub?  </List1>
+                        <List1>What are we building today!  </List1>
+                        <List1>Git commands- <b> config, init, status, add, commit, log, reset, stash - pop, clear </b> </List1>
+                        <List1>Creating a repo on GitHub </List1>
+                        <List1>Git commands - <b>remote, push, pull</b></List1>
+                        <List1>Branching - Why and How? </List1>
+                        <List1>Git commands - <b>branch, checkout, diff</b> </List1>
+                        <List1>Cloning and Forking</List1>
+                        <List1>Pull Requests </List1>
+
+                </GithubDay1>
                 <GithubImage src="https://industrious-tuberose-3eb.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc813d0d3-7447-4f00-b1dd-0c26dd3a760f%2FGit_and_GitHub.png?table=block&id=ac90135f-cdc6-440e-9060-3f391156f8ac&spaceId=6b11d6fc-ad69-4b49-8ae1-d86e8abb691f&width=2000&userId=&cache=v2"/>
+                
+                <GithubDay2> 
+                    <Title>Day 2:</Title>
+                    <List2>Adding Collaborators</List2>
+                    <List2>Users and Organizations </List2>
+                    <List2>Solving Merge Conflicts</List2>
+                    <List2>GitHub Profile - Markdown</List2>
+                    <List2>GitHub Developer Student Pack and Campus Expert- provide priority support URL  </List2>
+                    <List2>GitHub Pages </List2>
+                    <List2>Good First Issues - Your entry to open source </List2>
+                    <List2>Contributor experience sharing and tips - Aashish Thapa </List2>
+                    <List2>KUCC GitHub Organization</List2>
+                </GithubDay2>
             </GithubWorkshop>
         </Container>
 
