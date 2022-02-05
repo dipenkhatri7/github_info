@@ -14,7 +14,35 @@ const Left = styled.div`
     flex-direction: column;
     padding: 18.45px;
 `
+const Center = styled.div`
+    flex: 1;
+    padding: 18.45px;
+    margin-left: 28.45px;
 
+`
+const Title = styled.h2`
+    margin-bottom: 34.45px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+`
+const List = styled.ul`
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+`
+const ListElement = styled.li`
+    width: 50% ;
+    letter-spacing: 0.5px;
+    margin-bottom: 10.45px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    &:hover{
+        font-weight: bold;
+    }
+`
 const Logo = styled.h1`
 font-family: 'Open Sans', sans-serif;
 margin: 8px 0px;
@@ -68,6 +96,20 @@ const Footer = () => {
                 </SocialMedia>
 
             </Left>
+            <Center>
+                <Title>Useful Links</Title>
+                <List>
+                    <ListElement>Facebook</ListElement>
+                    <ListElement>Instagram</ListElement>
+                    <ListElement>Twitter</ListElement>
+                    <ListElement>LinkedIn</ListElement>
+                    <ListElement>Apple</ListElement>
+                    <ListElement>Google</ListElement>
+                    <ListElement>Youtube</ListElement>
+                    <ListElement>Microsoft</ListElement>
+                </List>
+            </Center>
+
         </Container>
     )
 }
