@@ -1,4 +1,4 @@
-import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from '@material-ui/icons';
+import { Facebook, GitHub, Instagram, LinkedIn, MailOutline, Phone, Room, Twitter } from '@material-ui/icons';
 import React from 'react'
 import styled from 'styled-components';
 
@@ -43,6 +43,13 @@ const ListElement = styled.li`
         font-weight: bold;
     }
 `
+const Right = styled.div`
+    flex: 1;
+    padding: 18.45px;
+    margin-left: 24.45px;
+    height: 226px;
+`
+
 const Logo = styled.h1`
 font-family: 'Open Sans', sans-serif;
 margin: 8px 0px;
@@ -67,6 +74,13 @@ margin-right: 18.45px ;
     cursor: pointer;
     transform: scale(1.1);
 }
+`
+const ContactElement = styled.div`
+    margin-bottom: 10.45px;
+    display: flex;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+
 `
 
 const Footer = () => {
@@ -109,7 +123,21 @@ const Footer = () => {
                     <ListElement>Microsoft</ListElement>
                 </List>
             </Center>
+            <Right>
+                <Title>Contact Us</Title>
+                <ContactElement> <Room style={{marginRight:8}} />
+                    Kathmandu, Nepal
+                </ContactElement>
+                <ContactElement>
+                    <Phone style={{marginRight:8}}/>
+                    +977 123 456 7890
+                </ContactElement>
+                <ContactElement>
+                    <MailOutline style={{marginRight:8}}/>
+                    Khatridipen7@gmail.com
+                </ContactElement>
 
+            </Right>
         </Container>
     )
 }
