@@ -106,8 +106,6 @@
 .menu-link::before {
   content: attr(data-content);
   position: absolute;
-  /* top: 0;
-    left: 0; */
   color: #e6b63d;
   width: 0;
   overflow: hidden;
