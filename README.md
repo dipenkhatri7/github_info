@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Github Workshop Challenge
+
+## React JS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
