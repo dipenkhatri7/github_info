@@ -1,4 +1,4 @@
-import { Facebook, GitHub, Instagram, LinkedIn, MailOutline, Phone, Room, Twitter } from '@material-ui/icons';
+import { Facebook, GitHub, Instagram, LinkedIn, Twitter } from '@material-ui/icons';
 import React from 'react'
 import styled from 'styled-components';
 
