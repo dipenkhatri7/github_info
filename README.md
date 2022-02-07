@@ -1,5 +1,5 @@
 # WEBVERSION
-## [githubkuworkshop.netlify.app](githubkuworkshop.netlify.app)
+## [https://githubkuworkshop.netlify.app](https://githubkuworkshop.netlify.app)
 
 
 
