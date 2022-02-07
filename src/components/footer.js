@@ -92,7 +92,11 @@ const Footer = () => {
                 Note: Please go through all the <a href="https://industrious-tuberose-3eb.notion.site/Prerequisites-5082b94ed8f54dc3988a66c895b86f57" target="_blank" rel="noopener noreferrer">Prerequisites</a> to install Git and create a GitHub account in order to get ready for this workshop. 
                 </Description>
                 <SocialMedia>
+
+                    <SocialIcon bg= "#3b5998" onClick={() => window.open('https://www.Linkedin.com')}>
+
                     <SocialIcon bg= "#3b5998" onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>
+
                         <Facebook />
                     </SocialIcon>
                     <SocialIcon bg= "#E4405F" onClick={() => window.open('https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Fdipenkhatri7%3Ffbclid%3DIwAR2cc4Qi2-PCPmGUwHRxYQ23oOQbrHWkfLiSEzEcZunBMCrqTzBYgvTJYjI&h=AT1gyQhuNKkUQNF1LU3OjQ_KEP50S97N1mFjRfUYEkUyDOYsXOt0snZriqtNqYfXNfcGa1ci2lw7mj-yBUPrWV4X5VydIwmTb_8djYt4wNc51gP9VgFfzC7mTkoS1hcnVijKN7hVoU3bixkp')}>
