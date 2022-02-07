@@ -96,7 +96,7 @@ const Footer = () => {
                         
                     </SocialIcon>
                     <SocialIcon bg= "#E4405F">
-                      
+                        <Instagram />
                     </SocialIcon>
                     <SocialIcon bg= "#55ACEE">
                         <Twitter />
