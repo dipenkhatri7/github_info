@@ -99,7 +99,7 @@ const Footer = () => {
                       
                     </SocialIcon>
                     <SocialIcon bg= "#55ACEE">
-                        <Twitter />
+                        
                     </SocialIcon>
                     <SocialIcon bg= "#171515">
                         <GitHub />
