@@ -93,8 +93,6 @@ const Footer = () => {
                 </Description>
                 <SocialMedia>
 
-                    <SocialIcon bg= "#3b5998" onClick={() => window.open('https://www.Linkedin.com')}>
-
                     <SocialIcon bg= "#3b5998" onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>
 
                         <Facebook />
@@ -117,14 +115,14 @@ const Footer = () => {
             <Center>
                 <Title>Useful Links</Title>
                 <List>
-                    <ListElement>Facebook</ListElement>
-                    <ListElement>Instagram</ListElement>
-                    <ListElement>Twitter</ListElement>
-                    <ListElement>LinkedIn</ListElement>
-                    <ListElement>Apple</ListElement>
-                    <ListElement>Google</ListElement>
-                    <ListElement>Youtube</ListElement>
-                    <ListElement>Microsoft</ListElement>
+                    <ListElement onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>Facebook</ListElement>
+                    <ListElement onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>Instagram</ListElement>
+                    <ListElement onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>Twitter</ListElement>
+                    <ListElement onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>LinkedIn</ListElement>
+                    <ListElement onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>Apple</ListElement>
+                    <ListElement onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>Google</ListElement>
+                    <ListElement onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>Youtube</ListElement>
+                    <ListElement onClick={() => window.open('https://www.facebook.com/profile.php?id=100013394527810')}>Microsoft</ListElement>
                 </List>
             </Center>
             <Right>
