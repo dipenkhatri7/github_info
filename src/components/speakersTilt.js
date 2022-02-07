@@ -87,5 +87,4 @@ const SpeakerTilt = ({items}) => {
         </Box>
     )
 }
-
 export default SpeakerTilt;
