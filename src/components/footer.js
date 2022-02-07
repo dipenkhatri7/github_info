@@ -92,7 +92,7 @@ const Footer = () => {
                 Note: Please go through all the <a href="https://industrious-tuberose-3eb.notion.site/Prerequisites-5082b94ed8f54dc3988a66c895b86f57" target="_blank" rel="noopener noreferrer">Prerequisites</a> to install Git and create a GitHub account in order to get ready for this workshop. 
                 </Description>
                 <SocialMedia>
-                    <SocialIcon bg= "#3b5998">
+                    <SocialIcon bg= "#3b5998" onClick={() => window.open('https://www.Linkedin.com')}>
                         <Facebook />
                     </SocialIcon>
                     <SocialIcon bg= "#E4405F">
