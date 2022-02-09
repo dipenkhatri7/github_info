@@ -9,13 +9,23 @@ const Container = styled.div`
     border: 3px solid black;
     border-radius: 10px;
     margin-bottom: 54.45px;
-
+     @media (max-width:821px){
+        border:none;
+        margin: 10px;
+        position: relative;
+        margin-left: 0px
+    }
 `
 const Image = styled.img`
     width: 400px;
     height: 500px;
     object-fit: cover;
     opacity: 0.9;
+     @media (max-width:821px){
+        width:200px;
+        height:300px;
+     
+    }
 
 
 `
@@ -31,12 +41,28 @@ const Title= styled.h1`
     margin-top: 455px;
     font-size: 40.45px;
     font-family: 'Urbanist', sans-serif;
+    @media (max-width: 821px) {
+        padding: 0px;
+        font-size: 20px;
+        margin-top: 260px;
+    }
 `
-const Box = styled.div``        
+const Box = styled.div`
+     @media (max-width:821px){
+        width:200px;
+        height:300px;
+        display:flex;
+        flex-direction:row;
+        margin: 10px;
+        position:relative;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+`        
 const SocialLinks = styled.div`
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 0px;
 `
 const SocialIcon= styled.div`
 width: 35.45px;
@@ -50,6 +76,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-bottom: 50px;
+ @media (max-width:821px){
+        width:0px;
+        height:0px;
+        visibility: hidden;
+    }
 
 &:hover{
     cursor: pointer;

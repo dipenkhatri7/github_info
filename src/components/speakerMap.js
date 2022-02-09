@@ -7,6 +7,20 @@ const Container = styled.div`
     display: flex;
     padding: 10px;
     margin-left: 250px;
+     @media (max-width:1085px){
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;   
+        padding:0px
+        
+    }
+      @media (max-width:821px){
+        font-site: 35px;
+        padding: 0px;
+        padding-top: 0px;
+      
+    }
+  
 `
 const SpeakerMap = () => {
     return (
