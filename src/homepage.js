@@ -30,6 +30,10 @@ const GithubWorkshop = styled.div`
 const GithubImage = styled.img`
     width: 25%;
     margin-bottom: 40px;
+    @media (max-width:821px){
+        visibility: hidden;
+        width:0%;
+    }
 
 `
 const About = styled.div`
@@ -41,6 +45,19 @@ const About = styled.div`
     background-color:#f5f5f5;
     text-align: center;
     padding: 50px;
+    @media (max-width:1085px){
+        font-size:40px
+    }
+      @media (max-width:821px){
+        font-site: 35px;
+        padding: 0px;
+        padding-top: 30px;
+         height:7vh;
+    }
+    @media (max-width: 414px) {
+	    font-size: 30px;
+        height: 9vh;
+	}
   
 
 `
@@ -48,20 +65,34 @@ const Underline = styled.hr`
     width: 54.45rem;
     height: 0.2rem;
     background-color: #c29525;
+    @media (max-width: 1085px) {
+        visibility: hidden;
+    }
 `
 const GithubDay1 = styled.div`
     flex: 1;
     margin-top: 80px;
 
     padding: 10px;
+     @media (max-width:821px){
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+     
 `
 const GithubDay2 = styled.div`
     flex: 1;
     margin-right: 10px;
     padding: 10px;
-
+   
 
     margin-top: 80px;
+      @media (max-width:821px){
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-top: 0px;
+    }
 
 `
 
@@ -70,6 +101,11 @@ const Title  = styled.div`
     font-size: 45.45px;
     margin-bottom: 28.45px;
     margin-left: 20px;
+     @media (max-width:821px){
+        font-size:30px;
+        
+
+    }
 `
 const List1 =styled.li`
 font-family: 'Urbanist', sans-serif;
@@ -77,6 +113,9 @@ margin: 2px;
 font-size: 20px;
 letter-spacing: .5px;
 text-align: left;
+ @media (max-width:821px){
+        font-size:15px;
+    }
 
 `
 const List2 = styled.li`
@@ -85,6 +124,9 @@ margin: 2px;
 font-size: 20px;
 letter-spacing: .5px;
 text-align: left;
+ @media (max-width:821px){
+        font-size:15px;
+    }
 
 `
 const About1 = styled.div`
@@ -96,11 +138,24 @@ const About1 = styled.div`
 
     text-align: center;
     padding: 50px;
+     @media (max-width:1085px){
+        font-size:40px
+    }
+      @media (max-width:821px){
+        font-site: 35px;
+        padding: 0px;
+        padding-top: 30px;
+         height:7vh;
+    }
+  
 `
 const Underline1= styled.hr`
     width: 12.45rem;
     height: 0.2rem;
-    background-color: #c29525;`
+    background-color: #c29525;
+    @media (max-width: 1085px) {
+        visibility: hidden;
+    }`
 
 const HomePage = () => {
     return (
