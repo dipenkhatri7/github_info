@@ -11,26 +11,25 @@
   cursor: pointer;
   transition: right 0.7s;
 }
-@media (max-width: 821px){
-	.hamburger-menu{
-	top:0.4rem;
-	right: 8rem;
-}
-@media (max-width: 414px) {
-	.hamburger-menu{
-		right: 29.5rem;
-	}
-}
-	
+@media (max-width: 821px) {
+  .hamburger-menu {
+    top: 0.4rem;
+    right: 8rem;
+  }
+  @media (max-width: 414px) {
+    .hamburger-menu {
+      right: 29.5rem;
+    }
+  }
 }
 .change .hamburger-menu {
   right: 22.45rem;
 }
 
-@media (max-width: 821px){
-	.change .hamburger-menu {
-	right: 32.45rem;
-}
+@media (max-width: 821px) {
+  .change .hamburger-menu {
+    right: 32.45rem;
+  }
 }
 .hamburger-menu span {
   position: absolute;
@@ -103,10 +102,10 @@
   z-index: 3;
 }
 
-@media (max-width: 821px){
-	.sidebar{
-		width: 38rem;
-	}
+@media (max-width: 821px) {
+  .sidebar {
+    width: 38rem;
+  }
 }
 
 .change .sidebar {
