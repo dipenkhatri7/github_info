@@ -9,6 +9,7 @@ const Container = styled.div`
     border: 3px solid black;
     border-radius: 10px;
     margin-bottom: 54.45px;
+    box-shadow: 10px 10px 5px grey;
      @media (max-width:821px){
         border:none;
         margin: 10px;
