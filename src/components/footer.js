@@ -7,17 +7,27 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: lightgray;
+@media (max-width: 820px){
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
 `
 const Left = styled.div`
     flex: 1;
     display: flex;
     flex-direction: column;
     padding: 18.45px;
+  
 `
 const Center = styled.div`
     flex: 1;
     padding: 18.45px;
     margin-left: 28.45px;
+      @media (max-width: 820px){
+        margin: 0px;
+}   
 
 `
 const Title = styled.h2`
@@ -48,6 +58,9 @@ const Right = styled.div`
     padding: 18.45px;
     margin-left: 24.45px;
     height: 226px;
+      @media (max-width: 820px){
+      margin: 0px;
+}   
 `
 
 const Logo = styled.h1`
